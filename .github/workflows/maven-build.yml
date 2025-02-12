@@ -18,7 +18,7 @@ jobs:
 
       - name: Build and Test
         run: mvn clean install
-        working-directory: src/main/webapp
+        working-directory: .
 
       - name: Upload Artifact
         uses: actions/upload-artifact@v4
